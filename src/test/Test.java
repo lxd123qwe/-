@@ -7,7 +7,7 @@ import org.hibernate.tool.hbm2ddl.SchemaExport;
 public class Test {
 	public static void main(String[] args) {
 		System.out.println("1");
-		//读取配置文件
+		//读取配置文件z
 		Configuration cfg=new Configuration().configure();
 		System.out.println("2");
 		SchemaExport export=new SchemaExport(cfg);
